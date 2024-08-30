@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Header from "../my-app/component/Header";
+import Footer from "../my-app/component/Footer";
 
 ReactDOM.render(
   <div>
     <Header />
+    <Footer />
   </div>,
   document.getElementById("root")
 );
